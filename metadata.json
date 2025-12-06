@@ -1,0 +1,5 @@
+{
+  "name": "Crisis Coordinator",
+  "description": "Universal Disaster Response System powered by Gemini 3 Pro, detecting disasters and coordinating response via multimodal data analysis.",
+  "requestFramePermissions": []
+}
