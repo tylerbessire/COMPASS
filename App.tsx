@@ -42,7 +42,7 @@ const App: React.FC = () => {
     // 1. Gather Data
     const [news, infra] = await Promise.all([
       fetchDisasterNews(disaster),
-      fetchInfrastructure(disaster.lat, disaster.lng)
+      fetchInfrastructure(disaster.id, disaster.lat, disaster.lng)
     ]);
 
     const gatheredData: GatheredData = {
